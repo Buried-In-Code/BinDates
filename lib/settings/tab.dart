@@ -20,7 +20,7 @@ class _SettingsTabState extends State<SettingsTab> {
       body: ListView(
         children: [
           ListTile(
-            title: Text("Theme Mode"),
+            title: Text("Theme"),
             trailing: DropdownButton<ThemeMode>(
               value: provider.themeMode,
               onChanged: (newMode) {
