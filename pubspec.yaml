@@ -1,6 +1,6 @@
 name: bin_dates
 description: A flutter project.
-repository: https://github.com/Buried-In-Code/bin_dates
+repository: https://github.com/Buried-In-Code/BinDates
 version: 0.1.0+1
 publish_to: 'none'
 
@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  cupertino_icons: ^1.0.8
   http: ^1.3.0
   intl: ^0.20.2
   provider: ^6.1.2

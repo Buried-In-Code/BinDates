@@ -1,4 +1,4 @@
-package com.example.bin_dates
+package github.buriedincode.bin_dates
 
 import io.flutter.embedding.android.FlutterActivity
 
