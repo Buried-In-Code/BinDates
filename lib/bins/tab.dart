@@ -68,8 +68,10 @@ class _BinsTabState extends State<BinsTab> {
 
     if (nextBinDate == null || binTypes.isEmpty) {
       return const Center(
-        child: Text("Unable to find next Bin Date",
-            style: TextStyle(fontSize: 18)),
+        child: Text(
+          "Unable to find next Bin Date",
+          style: TextStyle(fontSize: 18),
+        ),
       );
     }
 
@@ -84,8 +86,10 @@ class _BinsTabState extends State<BinsTab> {
 
     return Scaffold(
       appBar: AppBar(
-          title: Text(
-              "${capitalize(provider.dataUrl.toString().split('/').last.split('.').first)} Bins")),
+        title: Text(
+          "${capitalize(provider.dataUrl.toString().split('/').last.split('.').first)} Bins",
+        ),
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

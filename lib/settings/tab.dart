@@ -47,9 +47,13 @@ class _SettingsTabState extends State<SettingsTab> {
               },
               items: DataConstants.dataUrls.map((x) {
                 return DropdownMenuItem(
-                    value: x,
-                    child: Text(capitalize(
-                        x.toString().split("/").last.split(".").first)));
+                  value: x,
+                  child: Text(
+                    capitalize(
+                      x.toString().split("/").last.split(".").first,
+                    ),
+                  ),
+                );
               }).toList(),
             ),
           ),

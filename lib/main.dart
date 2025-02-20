@@ -25,11 +25,15 @@ class BinDates extends StatelessWidget {
       themeMode: provider.themeMode,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.teal, brightness: Brightness.light),
+          seedColor: Colors.teal,
+          brightness: Brightness.light,
+        ),
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.teal, brightness: Brightness.dark),
+          seedColor: Colors.teal,
+          brightness: Brightness.dark,
+        ),
       ),
       home: const MainScreen(),
     );

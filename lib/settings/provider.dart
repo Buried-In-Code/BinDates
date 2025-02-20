@@ -4,11 +4,14 @@ import "package:shared_preferences/shared_preferences.dart";
 class DataConstants {
   static final List<Uri> dataUrls = [
     Uri.parse(
-        "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Featherston.json"),
+      "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Featherston.json",
+    ),
     Uri.parse(
-        "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Greytown.json"),
+      "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Greytown.json",
+    ),
     Uri.parse(
-        "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Martinborough.json"),
+      "https://raw.githubusercontent.com/Buried-In-Code/BinData/main/output/Martinborough.json",
+    ),
   ];
 }
 
